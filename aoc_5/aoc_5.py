@@ -45,7 +45,8 @@ def get_all_seat_ids(possible_seats):
     for seat in possible_seats:
         row_num = find_row(seat)
         seat_num = find_seat(seat)
-        all_seat_ids.add(get_seat_id(row_num, seat_num))
+        seat_id = get_seat_id(row_num, seat_num)
+        all_seat_ids.add(seat_id)
 
     all_seat_ids = sorted(all_seat_ids)
 

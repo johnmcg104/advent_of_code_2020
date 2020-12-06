@@ -5,7 +5,9 @@ print("Advent of Code - Day 1")
 
 def read_input(filename):
     with open(filename) as infile:
-        input_data = [int(line.strip("\n")) for line in infile if line.strip("\n").isdigit()]
+        input_data = [
+            int(line.strip("\n")) for line in infile if line.strip("\n").isdigit()
+        ]
 
     return input_data
 

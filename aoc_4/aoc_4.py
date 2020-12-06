@@ -121,8 +121,9 @@ def is_valid(passport_dict):
             if second_check_passed:
                 second_check += 1
 
-    results = f"Passed first check: {first_check}\n" \
-              f"Passed second check: {second_check}"
+    results = (
+        f"Passed first check: {first_check}\n" f"Passed second check: {second_check}"
+    )
 
     return results
 
