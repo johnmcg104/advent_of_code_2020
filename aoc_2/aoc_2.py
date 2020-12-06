@@ -30,7 +30,7 @@ def first_check(input):
             invalid_passwords_1 += 1
 
     results = f"""
-    Second check:
+    First check:
     Valid: {str(valid_passwords_1)}
     Invalid: {str(invalid_passwords_1)}
     """
